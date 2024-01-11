@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+
+}
+
+.main{
+  background-color: white;
+  
+
+}
+
+.child{
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.child figcaption{
+   text-align: center;
+   text-shadow: 50px;
+   font-size: medium;
+   font-weight: 100px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.additems{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+input {
+  display: block;
+  width: 35vw;
+  padding: 0 1.25rem;
+}
+
+input,
+input::placeholder {
+  font: 1.25rem/3 sans-serif;
+}
+
+input::after {
+  
+  
+  position: absolute;
+  top: 0;
+  right: 0;
+ }
+ .showitems{
+  display: block;
+  width: 35vw;
+  padding: 0 1.25rem;
+ }
+ .eachitems{
+  display: flex;
+  border: 50px;
+
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+ }
