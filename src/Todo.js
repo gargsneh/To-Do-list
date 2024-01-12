@@ -19,13 +19,19 @@ const Todo = () => {
             </div>
             <div className='additems'>
                     <input type= "text" placeholder= " List down the tasks.." />
-                    <i className="fa fa-plus add-btn" title='Add items'></i>
+                    <div className='btn'>
+                    <i className="fa fa-plus " title='Add items'></i>
+                    </div>
+                    
                     
                 </div>
                 <div className='showitems'>
                     <div className='eachitems'>
                         <h3>apple</h3>
-                        <i className="far fa-trash-alt add-btn" title='Delete items'></i>
+                        <div className='btn'>
+                        <i className="far fa-trash-alt " title='Delete items'></i>
+                        </div>
+                       
                         
 
                     </div>

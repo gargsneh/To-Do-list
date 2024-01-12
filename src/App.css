@@ -79,23 +79,38 @@ input::placeholder {
   font: 1.25rem/3 sans-serif;
 }
 
-input::after {
-  
-  
-  position: absolute;
-  top: 0;
-  right: 0;
- }
+
+ 
  .showitems{
   display: block;
-  width: 35vw;
+  
   padding: 0 1.25rem;
+  
+  width: 38vw; /* Set the width of your box */
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  
+  
  }
  .eachitems{
-  display: flex;
-  border: 50px;
-
+  display : block;
+ 
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
+  margin: auto;
+  height: fit-content;
+  border: black;
+  border-radius: 10px;
+  border-color: black;
+
+
+
+ }
+
+.btn{
+  width: 70%;
+	margin: 0 auto;
+	margin-bottom: 3rem;
+
  }
